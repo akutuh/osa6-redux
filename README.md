@@ -1,1 +1,1 @@
-"# osa6-redux" 
+# osa6-redux
