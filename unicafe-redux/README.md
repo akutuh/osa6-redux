@@ -1,0 +1,1 @@
+### osa 6 tehtavat 6.1-6.2
