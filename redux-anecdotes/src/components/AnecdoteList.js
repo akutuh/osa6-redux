@@ -18,7 +18,6 @@ const Anecdote = ({ anecdote, handleClick }) => {
 const AnecdoteList = () => {
   const anecdotes = useSelector(state => state)
   const dispatch = useDispatch()
-
   const vote = (id) => {
     console.log('vote', id)
     dispatch(voteAnecdote(id))
@@ -26,7 +25,7 @@ const AnecdoteList = () => {
 
   return(
     <div>
-      {anecdotes.map(anecdote =>
+      {anecdotes.anecdotes.map(anecdote =>
        <Anecdote 
         key={anecdote.id}
         anecdote={anecdote}
